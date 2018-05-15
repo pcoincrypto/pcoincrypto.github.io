@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width:768px) and (max-width:1024px)
+{
+.min-heafder-section {
+    background: #000;
+}
+
+img.where-do-top-image {
+    display: none;
+}
+.where-do-section.container-fluid {
+    background: #000;
+}
+img.where-do-bottom-image {
+    display: none;
+}
+}
+
+@media (min-width:800px) and (max-width:1024px){
+	.header-bottom-image {
+    display: none;
+}
+}
+
+
+
+@media(max-width:1199px) {
+	.menu-section .nav > li > a {
+    padding: 6px 5px;
+}
+
+.coin-Specifications-inner {
+    width:30%;
+    text-align: center;
+}	
+.breadcrumb-nav ul {
+    padding: 0px;
+}
+.inner-form-section {
+    padding:0px;
+}
+	}
+@media(max-width:980px) {
+		/*
+	ONLY FOR DASHBOARD 
+	*/
+	.mid-section-left .row {
+    background: #f5f5f5;
+    margin-left:0px;
+    margin-top: 24px;    margin-right: -2px;
+    padding-bottom: 16px;
+}
+.mid-section-right img {
+    width:100%;
+}
+.IcoHero-ctaButton {
+    min-width: inherit;
+}
+	
+	}
+@media(max-width:767px) {
+
+.partners-and-services-section ul{ padding:0px;}
+.partners-and-services-section ul li img{ margin:0 auto;}
+
+	
+/*
+ONLY FOR MENU 
+*/	
+.menu-section .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    width: 268px;
+    right: 0px;
+
+}
+.menu-section .navbar-collapse ul{ 
+width:100%;
+background: #bf9237;}
+.header-section.container-fluid {
+    position: relative;
+    z-index: 20;
+}
+ul.footer-menu-section li {
+    display: block;
+}
+.coin-Specifications-inner {
+    width: 97%;
+    text-align: center;
+}
+.inner-form-section a.btn {
+    font-size: 20px;
+    padding: 6px 12px !important;
+    text-transform: uppercase;
+    background: #be9136;
+    color: #fff;
+    border: 0px;
+}
+.inner-form-section button {
+    font-size: 20px;
+    padding: 6px 12px !important;
+    text-transform: uppercase;
+    background: #be9136;
+    color: #fff;
+    border: 0px;
+}
+/*
+MENU SECTION END
+*/
+/*
+HEADER SECTION 
+*/
+/*
+HOME PAGE HEADER SECTION 
+*/
+.min-heafder-section {
+    height: inherit !important;
+}
+.slider-section h1 {
+    color: #cc9933;
+    font-size: 32px;
+}
+.slider-section h1 {
+    color: #cc9933;
+}
+.min-heafder-section {
+    background: #000 !important;
+}
+.header-bottom-image {
+    display: none;
+}
+/*
+HOME PAGE HEADER SECTION END
+*/	
+/*
+HOW IT WORK SECTION 
+*/
+.how-it-work-section h1 {
+    font-size: 29px;
+}
+.how-it-work-section {
+    background: #f3f3f3;
+	background-image:none;
+}
+.bottom-image-section {
+    display: none;
+}
+/*
+HOW IT WORK SECTION END
+*/
+/*
+Get White Paper Section 
+*/
+.get-white-paper-section {
+    background:none;
+
+}
+.get-white-left-inner {
+    margin-top: 242px !important;
+    padding: 0px !important;
+}
+.get-white-left-inner h1 {
+    font-size: 30px;
+}
+.get-white-left-inner a {
+    width: 100%;
+    margin-bottom: 38px;
+}
+/*
+Get White Paper 
+*/
+/*
+TEAM SECTION 
+*/
+.team-section-inner {
+    border: 1px solid #e7e7e7;
+    padding: 14px;
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+img.where-do-top-image {
+    display: none;
+}
+.where-do-section.container-fluid {
+    text-align: center;
+    height: inherit !important;
+}
+.block-ring-section {
+    margin: 0 auto !important;
+    float: inherit !important;
+}
+.where-do-section {
+    text-align: center;
+    height: inherit !important;
+    background: #000;
+    padding-bottom: 40px;
+    padding-top: 33px;
+}
+img.where-do-bottom-image {
+    display: none;
+}
+.title-section h1 {
+    font-size: 35px;
+}
+.row.cross-image {
+    display: none;
+}
+.partners-and-services-section li {
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 21px;
+    width: 100%;
+}
+ul.footer-menu-section {
+    padding: 0px;
+}
+ul.footer-menu-section li {
+    width: 100%;
+    margin: 9px;
+    text-align: center;
+}
+ul.footer-menu-section li a {
+    display: block;
+    width: 100%;
+}
+.footer-inner-section p {
+    color: #666;
+    font-size: 13px;
+}
+	}
+@media(max-width:680px) {
+.row.title-section h1 {
+    font-size: 33px;
+}
+/*
+ONLY FOR PROGRESS BAR 
+*/
+.ico-progress.progress-bar-part {
+    width: 100%;
+    border-radius: 0px !important;
+}
+.team-progress.progress-bar-part {
+    width: 100%;
+}
+.pre-progress.progress-bar-part {
+    width: 100%;
+}
+.promo-progress.progress-bar-part {
+    width: 100%;
+}
+.advisors-progress.progress-bar-part {
+    width: 100%;
+}
+.bounty-progress.progress-bar-part {
+    width: 100%;
+}
+.progress-inner {
+    border-radius: 0px !important;
+    border: 2px solid #c93;
+}
+/*
+ONLY FOR PROGRESS BAR 
+*/
+
+
+
+	
+	}
+@media(max-width:580px) {}
+@media(max-width:340px) {
+
+	
+	}
+
